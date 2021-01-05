@@ -1,0 +1,19 @@
+{
+  "name": "cucumber-console-formatter",
+  "version": "1.0.0",
+  "description": "A simple console formatter for Cucumber.js v7",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdorgeval/cucumber-console-formatter.git"
+  },
+  "author": "Henri d'Orgeval",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hdorgeval/cucumber-console-formatter/issues"
+  },
+  "homepage": "https://github.com/hdorgeval/cucumber-console-formatter#readme"
+}
