@@ -2,6 +2,8 @@
 
 A simple console formatter for Cucumber.js v7
 
+![screenshot1](screenshots/simple-maths-feature-with-error.png)
+
 ## To install this console formatter
 
 - run the command:
