@@ -4,6 +4,9 @@
   "description": "A simple console formatter for Cucumber.js v7",
   "main": "index.js",
   "scripts": {
+    "format": "prettier --write \"src/**/*.ts\" ",
+    "lint-fix": "npm run lint -- --fix",
+    "lint": "eslint . --ext .js,.ts --format visualstudio --no-color --max-warnings 10 --report-unused-disable-directives",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
