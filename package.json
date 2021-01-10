@@ -11,12 +11,12 @@
   ],
   "scripts": {
     "build": "rimraf lib && npm run format && npm run lint && tsc",
-    "format": "prettier --write \"src/**/*.ts\" ",
+    "format": "prettier --write \"{src,test}/**/*.ts\" ",
     "install-peers": "npm install --no-save @cucumber/cucumber@latest",
     "lint-fix": "npm run lint -- --fix",
     "lint": "eslint . --ext .js,.ts --format visualstudio --no-color --max-warnings 10 --report-unused-disable-directives",
     "package": "npm run build && rimraf package && rm -f cucumber-console-formatter*.tgz && npm pack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --config=jest.config.js --runInBand --coverage=false"
   },
   "repository": {
     "type": "git",
