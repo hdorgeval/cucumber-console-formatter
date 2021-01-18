@@ -2,14 +2,14 @@ import { ensureDirectoryExists } from './fs';
 import { dateToFilename, toFormattedDate } from './time';
 import { GherkinStepRunInfo, GherkingStep } from './gherkin';
 import { toStatusMarker } from './status-marker';
-import { Formatter, Status } from '@cucumber/cucumber';
+import { Status, SummaryFormatter } from '@cucumber/cucumber';
 import { IFormatterOptions } from '@cucumber/cucumber/lib/formatter';
 import { messages } from '@cucumber/messages';
 import { writeFileSync } from 'fs';
 import { join } from 'path';
 const indent = '  ';
 
-class SimpleConsoleFormatter extends Formatter {
+class SimpleConsoleFormatter extends SummaryFormatter {
   private eventIndex = 0;
   private instanceCreationDate = new Date();
   private printEnvelopes = process.env['SimpleConsoleFormatter.printEnvelopes'] === 'true';

@@ -76,6 +76,9 @@ Feature: Simple maths
     √ Given a variable is set to 11
     √ When I increment this variable by 1
     √ Then the variable should contain 12
+
+1 scenario (1 passed)
+4 steps (4 passed)
 `);
   });
 });
