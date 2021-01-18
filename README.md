@@ -1,5 +1,7 @@
 # cucumber-console-formatter
 
+[![Build Status](https://travis-ci.org/hdorgeval/cucumber-console-formatter.svg?branch=main)](https://travis-ci.org/hdorgeval/cucumber-console-formatter)
+
 A simple console formatter for Cucumber.js v7
 
 ![screenshot1](screenshots/simple-maths-feature-with-error.png)
