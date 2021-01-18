@@ -2,9 +2,9 @@ import { buildFormatterOptions, createFormatterInstanceWithOptions } from './hel
 import { metaEnvelope } from './data/envelopes';
 import { Status } from '@cucumber/cucumber';
 describe('meta envelope processing', (): void => {
-  test('should process meta envelope', () => {
+  test('should process meta envelope', async () => {
     // Given the formatter has been instanciated by Cucumber
-    const options = buildFormatterOptions();
+    const options = await buildFormatterOptions();
     createFormatterInstanceWithOptions(options);
 
     // When Cucumber emits a meta envelope
