@@ -40,6 +40,9 @@ before_install:
   # Launch XVFB
   - if [[ `uname` = "Linux" ]]; then export DISPLAY=:99.0; fi
 
+before_script:
+  - npm run install-peers
+
 script:
   - node --version
   - npm --version
