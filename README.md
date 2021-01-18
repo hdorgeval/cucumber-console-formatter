@@ -1,6 +1,7 @@
 # cucumber-console-formatter
 
 [![Build Status](https://travis-ci.org/hdorgeval/cucumber-console-formatter.svg?branch=main)](https://travis-ci.org/hdorgeval/cucumber-console-formatter)
+[![Build status](https://ci.appveyor.com/api/projects/status/4n138tbkj3juxk10?svg=true)](https://ci.appveyor.com/project/hdorgeval/cucumber-console-formatter)
 
 A simple console formatter for Cucumber.js v7
 
